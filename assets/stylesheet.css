@@ -1,0 +1,273 @@
+@font-face {
+    font-family: 'newFont';
+    src: url('newFont.ttf');
+}
+@font-face {
+    font-family: 'codeFont';
+    src: url('codeFont.otf');
+}
+@font-face {
+    font-family: 'titleFont';
+    src: url('titleFont.ttf');
+}
+@font-face {
+    font-family: 'titleSubFont';
+    src: url('titleSubFont.ttf');
+}
+u {
+    text-decoration: underline;
+    height:1px;
+    max-height: 1px;
+    min-height: 1px;
+    border-bottom: 1px solid transparent;
+    margin-bottom: 32px;
+    box-shadow: inset 0 0px 0 white, inset 0 -1px 0 transparent;
+}
+img {
+    image-rendering: optimizeQuality;
+}
+p {
+    color: black;
+    font-family: 'newFont';
+    word-wrap: normal;
+    display: inline;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+    text-align: left;
+    vertical-align: text-top;
+}
+code { 
+    font-family: 'codeFont';
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: 700;
+    padding-bottom:2px;
+    display: inline-block;
+    padding-left:2px;
+    padding-right:2px;
+    text-rendering: optimizeLegibility;
+    background: hsl(220, 80%, 90%); 
+    white-space: normal;
+    text-align: left;
+    font-size:17px;
+    vertical-align: middle;
+    height: 22px;
+}
+pre { 
+    font-family: 'newFont';
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: 100;
+    padding-bottom:2px;
+    display: inline-block;
+    padding-left:2px;
+    padding-right:2px;
+    text-rendering: optimizeLegibility;
+    background: lightgray; 
+    white-space: normal;
+    text-align: left;
+    font-size:17px;
+    vertical-align: middle;
+    height: auto;
+}
+a {
+    text-decoration: underline;
+    font-family: 'newFont';
+    word-wrap: normal;
+    display: inline;
+    line-height: 1.1;
+    margin: 0 auto;
+    display: inline;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-rendering: geometricPrecision;
+    text-decoration: underline;
+    text-decoration-color: #FF0000;
+}
+div.contentPaperSheet {
+    background-color: white;
+    padding: 10px;
+    width: 524px;
+    min-width: 524px;
+    max-width: 524px;
+    min-height:auto;
+    max-height:auto;
+    height:auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-32px;
+    padding-bottom:0px;
+    text-rendering: geometricPrecision;
+    text-align: left;
+    vertical-align: text-top;
+}
+html {
+    white-space: normal;
+    background-size: cover;
+    text-rendering: geometricPrecision;
+    background: url(../assets/background.png) no-repeat center center fixed;
+    background-color: powderblue;
+    background-size: cover;
+    text-rendering: geometricPrecision;
+    zoom: 1.25; 
+    -moz-transform: scale(1.25); 
+    -moz-transform-origin: 0 0;
+}
+body,input
+	{
+	font-family:"Trebuchet ms",arial;font-size:0.9em;
+	color:#333;
+}
+span.heart {
+    color:red;
+}
+span.greenbg {
+    margin-top:-2px;
+    font-family: 'codeFont';
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: 700;
+    padding-bottom:2px;
+    display: inline-block;
+    padding-left:2px;
+    padding-right:2px;
+    text-rendering: optimizeLegibility;
+    background: hsl(120, 60%, 80%);
+    white-space: normal;
+    text-align: left;
+    font-size:17px;
+    vertical-align: middle;
+    height: 22px;
+}
+span.babybluebg {
+    margin-top:-2px;
+    font-family: 'codeFont';
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: 700;
+    padding-bottom:2px;
+    display: inline-block;
+    padding-left:2px;
+    padding-right:2px;
+    text-rendering: optimizeLegibility;
+    background: hsl(220, 80%, 90%); 
+    white-space: normal;
+    text-align: left;
+    font-size:17px;
+    vertical-align: middle;
+    height: 22px;
+}
+span.yellowbg {
+    margin-top:-2px;
+    font-family: 'codeFont';
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: 700;
+    padding-bottom:2px;
+    display: inline-block;
+    padding-left:2px;
+    padding-right:2px;
+    text-rendering: optimizeLegibility;
+    background: hsl(52, 90%, 80%);
+    white-space: normal;
+    text-align: left;
+    font-size:17px;
+    vertical-align: middle;
+    height: 22px;
+}
+span.pinkbgtitlesub {
+    margin-top:3px;
+
+    letter-spacing: 1px;
+
+    font-weight: 700;
+    padding-bottom:2px;
+    display: inline-block;
+    padding-left:2px;
+    padding-right:2px;
+    text-rendering: optimizeLegibility;
+    background: pink;
+    white-space: normal;
+    text-align: left;
+    font-size:13px;
+    vertical-align: middle;
+    height: 14px;
+}
+span.pinkbg {
+    margin-top:-2px;
+    font-family: 'codeFont';
+    letter-spacing: 1px;
+    line-height: 22px;
+    font-weight: 700;
+    padding-bottom:2px;
+    display: inline-block;
+    padding-left:2px;
+    padding-right:2px;
+    text-rendering: optimizeLegibility;
+    background: pink;
+    white-space: normal;
+    text-align: left;
+    font-size:17px;
+    vertical-align: middle;
+    height: 22px;
+}
+.releasenum {
+    font-size: 14px; 
+    float:left; 
+    vertical-align: text-bottom; 
+    padding-top:10px;
+    font-weight:900;
+}
+span.stuffido {
+    padding-left:20px;
+}
+span.youtuberedbg {
+    background-color:#FFFFFF;
+    text-decoration-color: #FF0000;
+}
+span.youtubewhitefont {
+    color:#FF0000;
+    text-decoration-color: #FF0000;
+}
+.twitterfontcolor {
+    color:#55acee;
+    text-decoration-color: #55acee;
+}
+span.instafontcolor {
+    color:#8a3ab9;
+    text-decoration-color: #8a3ab9;
+}
+span.blogfontcolor {
+    color:hotpink;
+    text-decoration-color: hotpink;
+}
+.discordfontcolor {
+    color:#7289DA;
+    text-decoration-color: #7289DA;
+}
+.gmailfontcolor {
+    color:#c71610;
+    text-decoration-color: #c71610;
+}
+.contactme {
+    font-size: 16px;
+    padding: 2px;
+    line-height: 2px;
+}
+.navlink {
+        color:hotpink;
+    text-decoration-color: hotpink;
+}
+.blogunder {
+    font-size:12px;
+    color:black;
+    vertical-align: text-top;
+    display:inline;
+    font-weight:900;
+    text-rendering: optimizeLegibility;
+}
