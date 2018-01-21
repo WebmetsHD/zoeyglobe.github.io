@@ -1,7 +1,13 @@
 .nounderline {
    text-decoration:none;
 }
-
+hr {
+    color:black;
+    border: 1px solid black;
+    background-color:black;
+    max-width:520px;
+    text-align:left;
+}
 @font-face {
     font-family: 'newFont';
     src: url('newFont.ttf');
@@ -114,6 +120,7 @@ div.contentPaperSheet {
     text-rendering: geometricPrecision;
     text-align: left;
     vertical-align: text-top;
+    padding:14px;
 }
 html {
     white-space: normal;
@@ -269,8 +276,12 @@ span.blogfontcolor {
     line-height: 2px;
 }
 .navlink {
-        color:hotpink;
-    text-decoration-color: hotpink;
+    color:black;
+    text-decoration-color: black;
+    text-decoration:underline;
+    text-rendering: optimizeLegibility;
+    font-family: 'Roboto', sans-serif;
+    font-weight:100;
 }
 .blogunder {
     font-size:12px;
